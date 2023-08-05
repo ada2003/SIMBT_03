@@ -1,0 +1,101 @@
+body {
+  background-image: url('default.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  font-family: "Palatino", "Book Antiqua", serif;
+}
+
+#intro {
+
+  position: absolute;
+  top: 0;
+  padding: 15px 25px;
+  background-color: none;
+}
+
+.time {
+  position: absolute;
+  font-size: 22px;
+  bottom: 15px;
+  right: 20px;
+}
+
+.Date {
+  position: absolute;
+  font-size: 18px;
+  bottom: 40px;
+  right: 20px;
+}
+
+#weatherContainer {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 5px black;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  visibility: hidden;
+}
+
+#weatherContainer h1 {
+  margin:2px;
+  font-size: 30px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.weatherContainer {
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 5px black;
+  padding: 15px;
+  border-radius: 10px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.weatherContainer h1 {
+  margin: 2px;
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#searchContainer {
+  padding: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#searchContainer input {
+  width: 500px;
+  font-size: 18px;
+}
+
+#searchContainer button {
+  background-color: black;
+  color: white;
+  width: 75px;
+  font-size: 20px;
+}
+
+.bottom-details{
+  font-size: 15px;
+
+}
+
+.searchControl {
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+
+  #searchContainer input,
+  #searchContainer button {
+    width: 35vh;
+    height: 10vh;
+
+  }
+}
